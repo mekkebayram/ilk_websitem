@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9d8e5; /* Toz pembe */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #fff0f6;
+  color: #5a2a4f;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.kombin {
+  background: #fff;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.kombin h2 {
+  color: #a64d79;
+  margin-bottom: 10px;
+}
+
+.kombin img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 5px solid #800020; /* Bordo çerçeve */
+  box-shadow: 0 4px 10px rgba(128, 0, 32, 0.3); /* Hafif bordo gölge efekti */
+}
+
+.aciklama {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.yorum {
+  text-align: left;
+  background-color: #fff5fa;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #f2c6d8;
+}
+
+.yorum h3 {
+  color: #8a3e67;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #d8a9bf;
+  padding: 8px;
+  resize: none;
+  font-family: inherit;
+}
+
+button {
+  background-color: #a64d79;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #800020;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff0f6;
+  color: #5a2a4f;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.kombin img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 5px solid #800020; /* Bordo çerçeve */
+  box-shadow: 0 4px 10px rgba(128, 0, 32, 0.3);
+}
